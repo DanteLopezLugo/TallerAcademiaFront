@@ -1,0 +1,19 @@
+<h1>Prueba</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Se recorren las pruebas con for -->
+    <tr *ngFor="let prueba of pruebas">
+      <td>{{ prueba.id }}</td>
+      <td>{{ prueba.name }}</td>
+      <td>{{ prueba.description }}</td>
+    </tr>
+  </tbody>
+</table>
